@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd019b86-fcd2-4abd-a1ad-5f7cef62aca8" name="Default Changelist" comment="">
+    <list default="true" id="bd019b86-fcd2-4abd-a1ad-5f7cef62aca8" name="Default Changelist" comment="FF">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumHomeworkTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
@@ -9,17 +11,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/NewnewTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/PpppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SeleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SeleTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-NewnewTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SeleTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NewnewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NewnewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PpppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,26 +58,29 @@
     <session id="1959040879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="2" />
+          <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
           <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="15" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="16" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
         </counts>
@@ -76,118 +88,33 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="6" />
-          <entry key="java" value="3371" />
-          <entry key="properties" value="4" />
+          <entry key="java" value="5565" />
+          <entry key="properties" value="15" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="3371" />
-          <entry key="Properties" value="4" />
+          <entry key="JAVA" value="5565" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2907">
-              <caret line="171" column="14" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExplseleniumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="44" column="19" selection-start-line="43" selection-start-column="93" selection-end-line="44" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PpppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="42" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NewnewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SeleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumHomeworkTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/25.0-jre/30ade485699e7782cc2369b0e5d3d8e0bfc317c/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14144">
-              <caret line="846" selection-start-line="846" selection-end-line="846" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="54" selection-start-column="54" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/gradle.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -207,13 +134,23 @@
       <find>vars</find>
       <find>element</find>
       <find>link</find>
-      <find>driver</find>
       <find>FIRST</find>
       <find>regularPriceMainPage</find>
       <find>discPriceMainPage</find>
+      <find>itemPageCampaignPriceValue</find>
+      <find>itemPageRegPriceDecor</find>
+      <find>itemPage</find>
+      <find>driver</find>
+      <find>box-campaign-products .product-column a[data-id</find>
+      <find>box-campaign-products .product-column a[data-id=\&quot;1\&quot;].link</find>
+      <find>js</find>
     </findStrings>
     <replaceStrings>
       <replace>mpCampaignPriceValue</replace>
+      <replace>ipCampaignPriceValue</replace>
+      <replace>ipRegPriceDecor</replace>
+      <replace>ip</replace>
+      <replace>mpProductText</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -397,11 +334,11 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6285499544439" />
+        <entry key="$PROJECT_DIR$" value="6286304076500" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="51961555" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="729463209" />
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1635710696" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3905123817" />
       </map>
     </option>
@@ -521,18 +458,19 @@
         <option value="$PROJECT_DIR$/src/test/java/first_test.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumIDETest.java" />
         <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/gradle/gradle.properties" />
         <option value="$PROJECT_DIR$/src/test/java/ExplseleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Newtest1Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/HomeworkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/0000Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumTestTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NewnewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/OjojTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PpppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/gradle/gradle.properties" />
         <option value="$PROJECT_DIR$/src/test/java/SeleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SeleniumHomeworkTwo.java" />
       </list>
     </option>
   </component>
@@ -551,9 +489,10 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -561,7 +500,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -570,6 +508,17 @@
             <path>
               <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
@@ -593,39 +542,16 @@
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_automation_course_20.19_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_automation_course_20.19_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571868193229" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572216296277" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -647,7 +573,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SeleTest.sele">
+  <component name="RunManager" selected="Gradle.SeleniumHomeworkTwo">
     <configuration name="NewnewTest" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -667,12 +593,12 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="NewnewTest.newnew" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumHomeworkTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;NewnewTest.newnew&quot; --scan" />
+        <option name="scriptParameters" value="--tests SeleniumHomeworkTwo" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -686,12 +612,12 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="OjojTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumHomeworkTwo.chormeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests OjojTest" />
+        <option name="scriptParameters" value="--tests &quot;SeleniumHomeworkTwo.chormeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -705,12 +631,12 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="PpppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumHomeworkTwo.commonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests PpppTest" />
+        <option name="scriptParameters" value="--tests &quot;SeleniumHomeworkTwo.commonTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -724,12 +650,12 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="SeleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumHomeworkTwo.edgeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests SeleTest" />
+        <option name="scriptParameters" value="--tests &quot;SeleniumHomeworkTwo.edgeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -743,12 +669,12 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="SeleTest.sele" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumHomeworkTwo.ieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SeleTest.sele&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SeleniumHomeworkTwo.ieTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -764,19 +690,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.NewnewTest" />
-      <item itemvalue="Gradle.NewnewTest.newnew" />
-      <item itemvalue="Gradle.SeleTest" />
-      <item itemvalue="Gradle.OjojTest" />
-      <item itemvalue="Gradle.PpppTest" />
-      <item itemvalue="Gradle.SeleTest.sele" />
+      <item itemvalue="Gradle.SeleniumHomeworkTwo" />
+      <item itemvalue="Gradle.SeleniumHomeworkTwo.commonTest" />
+      <item itemvalue="Gradle.SeleniumHomeworkTwo.chormeTest" />
+      <item itemvalue="Gradle.SeleniumHomeworkTwo.edgeTest" />
+      <item itemvalue="Gradle.SeleniumHomeworkTwo.ieTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SeleTest.sele" />
-        <item itemvalue="Gradle.SeleTest" />
-        <item itemvalue="Gradle.PpppTest" />
-        <item itemvalue="Gradle.OjojTest" />
-        <item itemvalue="Gradle.NewnewTest.newnew" />
+        <item itemvalue="Gradle.SeleniumHomeworkTwo" />
+        <item itemvalue="Gradle.SeleniumHomeworkTwo.chormeTest" />
+        <item itemvalue="Gradle.SeleniumHomeworkTwo.ieTest" />
+        <item itemvalue="Gradle.SeleniumHomeworkTwo.edgeTest" />
+        <item itemvalue="Gradle.SeleniumHomeworkTwo.commonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -794,42 +720,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleTest_sele - 2019.10.23 at 23h 04m 46s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.27 at 23h 17m 39s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.23 at 23h 05m 31s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.27 at 23h 18m 41s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.23 at 23h 07m 00s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.27 at 23h 26m 55s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.23 at 23h 54m 51s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.27 at 23h 28m 30s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.23 at 23h 55m 21s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.27 at 23h 37m 10s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.24 at 00h 14m 46s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.27 at 23h 38m 12s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.24 at 00h 18m 59s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.28 at 00h 10m 03s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.24 at 00h 36m 35s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.28 at 00h 12m 18s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.24 at 00h 46m 07s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.28 at 00h 15m 49s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SeleTest_sele - 2019.10.24 at 00h 53m 46s.xml">
-      <configuration name="SeleTest.sele" configurationId="GradleRunConfiguration" />
+    <history-entry file="SeleniumHomeworkTwo - 2019.10.28 at 00h 41m 38s.xml">
+      <configuration name="SeleniumHomeworkTwo" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03144989" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -837,15 +763,15 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41416308" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8443497" visible="true" weight="0.2585837" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.15565032" side_tool="true" visible="true" weight="0.2585837" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32939914" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33261803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -867,13 +793,6 @@
     <entry file="file://$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HomeworkTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/P0ppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/0000Test.java" />
@@ -886,58 +805,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/25.0-jre/30ade485699e7782cc2369b0e5d3d8e0bfc317c/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14144">
-          <caret line="846" selection-start-line="846" selection-end-line="846" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OjojTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/PpppTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/NewnewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OjojTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="54" column="57" lean-forward="true" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -948,21 +825,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PpppTest.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="42" selection-end-column="69" />
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SeleTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="19" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/25.0-jre/30ade485699e7782cc2369b0e5d3d8e0bfc317c/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="846" selection-start-line="846" selection-end-line="846" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SeleniumHomeworkTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
           </folding>
         </state>
       </provider>
